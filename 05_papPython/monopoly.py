@@ -42,6 +42,7 @@ while True:
         break
     
     elif operation == "Würfeln":
+        #elif ist wie else: und if hintereinander
         anzahlwurf = 0
         while anzahlwurf < 3:
             anzahlwurf += 1

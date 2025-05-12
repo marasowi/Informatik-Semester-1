@@ -13,7 +13,7 @@ while anzahlwurf < 3 or wurf == 6:
     if wurf == 6 :
         anzahlwurf = 3
         print ("Du hast eine 6 geworfen!")
-        continue
+       
     
     
 # while anzahlwurf < 3 :
@@ -26,7 +26,7 @@ while anzahlwurf < 3 or wurf == 6:
 #     wurf = random.choice(würfel)  
 #     print("Wurf" + ":" + str(wurf)) 
 
-#     # if wurf == 6 :
-#     #     anzahlwurf = 3
-#     #     print ("Du hast eine 6 geworfen!")
-#     #     continue
+#     if wurf == 6 :
+#         anzahlwurf = 3
+#         print ("Du hast eine 6 geworfen!")
+#         continue
