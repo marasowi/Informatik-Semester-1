@@ -13,6 +13,7 @@ while len(kartenstapel) != 0:
         break
 if len(kartenstapel) == 0 :
     print("Stapel ist leer")    
-
-
+#If st ne verzweigung und kann nicht wieder zurück gehen (nach oben), while kann auch wieder zurück (nach obene gehen) (Unterscheid der Schleifen)
+#while ist schleife, loop
+#If ist eine Verzweigung
 
