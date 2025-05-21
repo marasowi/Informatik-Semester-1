@@ -111,14 +111,11 @@
 #     anzahlwurf += 1
 #     wurf = random.randint(1, 6) 
 #     print("Der Wurf war eine: (wurf)")
-#     pos = pos + wurf + leiterspiel_dict[pos]
+#     pos = pos + wurf + leiterspiel_dict.get(pos + wurf, 0)
+#     print(f"Du bist jetzt auf Feld {pos}.")
+#
+#print(f"Du hast {anzahlwurf} Würfe gebraucht, um das Ziel zu erreichen.")
 
-#     print("Du bist jetzt auf Feld" + str(pos) + ".")
-    
-    
-#     if pos in leiterspiel_dict != 0 :
-#         pos += leiterspiel_dict[pos]
-#         print("Du bist durch eine Leiter oder eine Schlange " + str(leiterspiel_dict[pos]) + " Felder gegangen.")
         
 import random
 
