@@ -110,8 +110,9 @@
 # while pos < 100:
 #     anzahlwurf += 1
 #     wurf = random.randint(1, 6) 
-#     print("Du hast " + str(wurf) + " geworfeniin deinem" + str(anzahlwurf) + "".")
-#     pos += wurf  
+#     print("Der Wurf war eine: (wurf)")
+#     pos = pos + wurf + leiterspiel_dict[pos]
+
 #     print("Du bist jetzt auf Feld" + str(pos) + ".")
     
     
@@ -234,6 +235,9 @@ while pos < 100:
     anzahlwurf += 1
     wurf = random.randint(1, 6) 
     print("Du hast " + str(wurf) + " geworfen in deinem " + str(anzahlwurf) + ". Wurf.")
+    #man kann auch statt dem str und den plussen einfach am anfag den print den f-string verwenden und die sachen in {} setzen
+    # print(f"Du hast {wurf} geworfen in deinem {anzahlwurf}. Wurf.")
+    #Damit muss nicht so viel umgewandelt werden
     pos += wurf  
     print("Du bist jetzt auf Feld " + str(pos) + ".")
     
